@@ -19,7 +19,12 @@ export default function TabLayout() {
   const colorScheme = useColorScheme();
 
   return (
-    <Tabs screenOptions={{headerShown: false,}}>
+    <Tabs screenOptions={{
+      headerShown: false,        
+      tabBarStyle: {
+        backgroundColor: "#222222", // タブの背景色を指定
+      },
+    }}>
       <Tabs.Screen
         name="index"
         options={{

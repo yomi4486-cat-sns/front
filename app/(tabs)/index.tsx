@@ -7,7 +7,7 @@ import DefaultHeader from '../Header';
 export default function TabHomeScreen() {
   return (
     <View style={styles.container}>
-      <DefaultHeader title="あなたのプロフィール" showSettingButton={true}/>
+      <DefaultHeader title="ホーム" showSettingButton={true}/>
     </View>
   );
 }
