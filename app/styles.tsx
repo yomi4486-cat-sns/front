@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
     width: '80%',
   },
   leftContainer: {
-    flex: 4,
+    flex: 6,
   },
   iconContainer: {
     paddingRight: 10,
